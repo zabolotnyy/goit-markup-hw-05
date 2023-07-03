@@ -805,7 +805,10 @@ textarea {
 .form-input:focus {
     border: 1px solid #4D5AE5;
 }
-
+.modal-inputs .form-input {
+    color: #2E2F42;
+    padding-left: 38px;
+}
 .comment {
     display: block;
     width: 360px;
@@ -839,7 +842,11 @@ textarea {
     line-height: 1.16;
     letter-spacing: 0.48px;
 }
-
+.form-label .comment {
+    color:#2E2F42;
+    padding-left: 16px;
+    padding-top: 8px;
+}
 .modal-text {
     color: #2E2F42;
     text-align: center;
@@ -850,21 +857,35 @@ textarea {
     line-height: 1.5;
     letter-spacing: 0.32px;
     margin-top: 72px;
-}/*CHEKBOX*/
-.checkbox {
-    width: 16px;
-    height: 16px;
 }
-
 .modal-checkbox-container {
+    position: relative;
     display: flex;
-    align-items: center;
     gap: 8px;
     margin-left: 24px;
 }
-
-.policy-text {
-    display: block;
+/*CHECKBOX*/
+.check_input {
+position: absolute;
+width: 16px;
+height: 16px;
+border-radius: 2px;
+border: 1px solid rgba(46, 47, 66, 0.40);
+}
+.check_box{
+position: absolute;
+width: 16px;
+height: 16px;
+overflow: hidden;
+background-repeat: no-repeat;
+border-radius: 2px;
+}
+.check_input:checked + .check_box {
+    background-image: url(/images/checkbox.svg);
+    }
+/*Checkbox finish*/
+.policy_text {
+    display: inline;
     align-items: center;
     color: #8E8F99;
     font-size: 12px;
@@ -873,6 +894,7 @@ textarea {
     font-weight: 400;
     line-height: 1.16;
     letter-spacing: 0.48px;
+    padding-left: 16px;
 }
 .policy {
     color: #4D5AE5;
