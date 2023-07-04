@@ -839,7 +839,6 @@ textarea {
     border-color: #4D5AE5;
 }
 .checkbox-container {
-    display:flex;
     margin-bottom: 24px;
     padding-left:24px;
     position: relative;
