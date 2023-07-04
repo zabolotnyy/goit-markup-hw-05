@@ -549,7 +549,7 @@ textarea {
 }
 .footer-form {
     display:flex;
-    gap 24px;
+    gap: 24px;
 }
 
 .footer-btn {
@@ -568,7 +568,6 @@ textarea {
     border-radius: 4px;
     background-color: #4D5AE5;
     border: none;
-    margin-left: 24px;
     min-width: 165px;
     height: 40px
 }
@@ -802,10 +801,10 @@ textarea {
 .modal-form-label {
     display: block;
     margin-bottom: 4px;
-    color: #8E8F99;
+    color: var(--customers-color);
     font-size: 12px;
-    line-height: 1.16;
-    letter-spacing: 0.48px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
 }
 .modal-form-input {
     position: relative;
