@@ -839,9 +839,10 @@ textarea {
     border-color: #4D5AE5;
 }
 .checkbox-container {
-    justify-content: center;
+    display:flex;
     margin-bottom: 24px;
-      position: relative;
+    padding-left:24px;
+    position: relative;
 }
 .checkbox {
     position:absolute;
@@ -874,8 +875,7 @@ textarea {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    margin-left: 24px;
-}
+ }
 .checkbox-policy {
     font-size: 12px;
     line-height: 1.17;
