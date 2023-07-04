@@ -782,6 +782,10 @@ textarea {
     display: block;
     margin-bottom: 8px;
 }
+.modal-form-field-comment {
+    display: block;
+    margin-bottom: 16px;
+}
 .modal-form-label {
     display: block;
     margin-bottom: 4px;
@@ -838,7 +842,6 @@ textarea {
     display: flex;
     justify-content: center;
     margin-bottom: 24px;
-    margin-top: 16px;
     position: relative;
 }
 .checkbox {
