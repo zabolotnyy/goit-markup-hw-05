@@ -840,24 +840,12 @@ textarea {
 }
 .checkbox-container {
     margin-bottom: 24px;
-    padding-left:24px;
-    position: relative;
-}
-.checkbox {
-    position:absolute;
-    top: 0;
-    left: 0;
-    width: 16px;
-    height: 16px;
 }
 .checkbox-visually {
     display: inline-flex;
     align-items: center;
     justify-content: center;
     fill: transparent;
-    position: absolute;
-    top:0;
-    left:0;
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
